@@ -7,12 +7,12 @@ rzA = RzA / (norm(RzA));
 rzB = RzB / (norm(RzB));
 ryA = RyA / (norm(RyA));
 ryB = RyB / (norm(RyB));
-
+a
 rxA = cross(rzA,ryA);
 rxB = cross(rzB,ryB);
-
+a  
 A = [rxA',ryA',rzA'];
 B = [rxB',ryB',rzB'];
 
-Ai = inv(A);
+Ai = inv(A);a
 Bi = inv(B);
